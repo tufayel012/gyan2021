@@ -1,0 +1,495 @@
+@media (min-width: 320px) and (max-width:575px){
+    .title p{
+        padding: 0;
+    }
+/*    ============================
+    header part responsive start
+    ==============================*/
+    header p{
+        display: block;
+        text-align: center;
+    }
+    
+    header .reg{
+        text-align: center;
+    }
+    
+    /*    ============================
+    header part responsive end
+    ==============================*/
+    
+    /*    ============================
+    nav part responsive start
+    ==============================*/
+    
+    nav button i{
+        color: #2d3e50;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    nav{
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+    
+    nav ul{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    nav ul li{
+        padding-top: 0;
+    }
+    
+    nav ul li a{
+        color: #fff;
+    }
+    
+    nav .button{
+        background: #2d3e50;
+        padding-bottom: 20px;
+    }
+    
+    nav .button{
+        margin-top: 0;
+    }
+    
+    nav .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    /*    ============================
+    nav part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    banner part responsive start
+    ==============================*/
+    #banner-part .banner .overlay{
+        padding-top: 40px;
+        padding-bottom: 75px;
+    }
+    
+    #banner-part .banner .overlay h2{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay h3{
+        font-size: 42px;
+    }
+    
+    #banner-part .banner .overlay p{
+        width:auto;
+        padding-bottom: 30px;
+    }
+    
+    #banner-part .banner .overlay a{
+        font-size: 16px;
+        padding: 13px 12px;
+    }
+    
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0 !important;
+    }
+    
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    
+    #banner-bottom .item{
+        transform: translateY(0);
+    }
+    
+    #banner-bottom{
+        margin: 50px 0;
+    }
+    /*    ============================
+    banner part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    about part responsive start
+    ==============================*/
+    #about-part .text-part{
+        padding-top: 0;
+    }
+    
+    #about-part .text-part a{
+        margin-right: 2px;
+        margin-top: 2px;
+    }
+    /*    ============================
+    about part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    course part responsive start
+    ==============================*/
+    #course-part .course-slider{
+        margin-top: 20px;
+    }
+    
+    #course-part .slick-dots{
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        padding-left: 0 !important;
+        width: 100%
+        text-align: center;
+    }
+    
+    #course-part .slick-dots li{
+        display: inline-block;
+    }
+    
+    #course-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    #course-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /*    ============================
+    course part responsive end
+    ==============================*/
+    
+    /*    ============================
+    event part responsive start
+    ==============================*/
+    #event-part .item .img{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    /*    ============================
+    event part responsive end
+    ==============================*/
+    
+    /*    ============================
+    testimonial part responsive start
+    ==============================*/
+    #testimonial-part .slick-slider{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*    ============================
+    testimonial part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    blog part responsive start
+    ==============================*/
+    #blog-part{
+        transform: translateY(-7%);
+    }
+    
+    #blog-part .big .img .overlay{
+        z-index: 1;
+    }
+    
+    #blog-part .big .img .overlay .icon ul{
+        margin-top: 0;
+    }
+    
+    #blog-part .big .img{
+        margin-bottom: 20px;
+    }
+    
+    #blog-part .text-large{
+        display: none;
+    }
+    
+    /*    ============================
+    blog part responsive end
+    ==============================*/
+    
+    /*    ============================
+    contact part responsive start
+    ==============================*/
+    #contact-part .icon{
+        display: none;
+    }
+    /*    ============================
+    contact part responsive end
+    ==============================*/
+    
+}
+
+@media (min-width: 576px) and (max-width:768px){
+    .title p{
+        padding: 0;
+    }
+/*    ============================
+    header part responsive start
+    ==============================*/
+    header p{
+        display: block;
+        text-align: center;
+    }
+    
+    header .reg{
+        text-align: center;
+    }
+    
+    /*    ============================
+    header part responsive end
+    ==============================*/
+    
+    /*    ============================
+    nav part responsive start
+    ==============================*/
+    
+    nav button i{
+        color: #2d3e50;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    
+    nav{
+        position: absolute !important;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
+    }
+    
+    nav ul{
+        background: #2d3e50;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
+    nav ul li{
+        padding-top: 0;
+    }
+    
+    nav ul li a{
+        color: #fff;
+    }
+    
+    nav .button{
+        background: #2d3e50;
+        padding-bottom: 20px;
+    }
+    
+    nav .button{
+        margin-top: 0;
+    }
+    
+    nav .navbar-toggler:focus{
+        box-shadow: 0 0 0 0rem;
+    }
+    /*    ============================
+    nav part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    banner part responsive start
+    ==============================*/
+    #banner-part .banner .overlay{
+        padding-top: 40px;
+        padding-bottom: 75px;
+    }
+    
+    #banner-part .banner .overlay h2{
+        font-size: 30px;
+    }
+    
+    #banner-part .banner .overlay h3{
+        font-size: 42px;
+    }
+    
+    #banner-part .banner .overlay p{
+        width:auto;
+        padding-bottom: 30px;
+    }
+    
+    #banner-part .banner .overlay a{
+        font-size: 16px;
+        padding: 13px 12px;
+    }
+    
+    #banner-part .slick-dots{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-left: 0 !important;
+    }
+    
+    #banner-part .slick-dots li{
+        display: inline-block;
+    }
+    
+    #banner-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    #banner-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    
+    #banner-bottom .item{
+        transform: translateY(0);
+    }
+    
+    #banner-bottom{
+        margin: 50px 0;
+    }
+    /*    ============================
+    banner part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    about part responsive start
+    ==============================*/
+    #about-part .text-part{
+        padding-top: 0;
+    }
+    
+    #about-part .text-part a{
+        margin-right: 2px;
+        margin-top: 2px;
+    }
+    /*    ============================
+    about part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    course part responsive start
+    ==============================*/
+    #course-part .course-slider{
+        margin-top: 20px;
+    }
+    
+    #course-part .slick-dots{
+        position: absolute;
+        bottom: -50%;
+        left: 0;
+        padding-left: 0 !important;
+        width: 100%
+        text-align: center;
+    }
+    
+    #course-part .slick-dots li{
+        display: inline-block;
+    }
+    
+    #course-part .slick-dots li button{
+        font-size: 0;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 0 10px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    #course-part .slick-dots .slick-active button{
+        background: #fbaa33;
+    }
+    /*    ============================
+    course part responsive end
+    ==============================*/
+    
+    /*    ============================
+    event part responsive start
+    ==============================*/
+    #event-part .item .img{
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    /*    ============================
+    event part responsive end
+    ==============================*/
+    
+    /*    ============================
+    testimonial part responsive start
+    ==============================*/
+    #testimonial-part .slick-slider{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    /*    ============================
+    testimonial part responsive end
+    ==============================*/
+    
+    
+    /*    ============================
+    blog part responsive start
+    ==============================*/
+    #blog-part{
+        transform: translateY(-7%);
+    }
+    
+    #blog-part .big .img .overlay{
+        z-index: 1;
+    }
+    
+    #blog-part .big .img .overlay .icon ul{
+        margin-top: 0;
+    }
+    
+    #blog-part .big .img{
+        margin-bottom: 20px;
+    }
+    
+    #blog-part .text-large{
+        display: none;
+    }
+    
+    /*    ============================
+    blog part responsive end
+    ==============================*/
+    
+    /*    ============================
+    contact part responsive start
+    ==============================*/
+    #contact-part .icon{
+        display: none;
+    }
+    /*    ============================
+    contact part responsive end
+    ==============================*/
+    
+}    
