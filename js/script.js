@@ -1,19 +1,20 @@
 $('.banner-slider').slick({
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 300,
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow:'<i class="fas fa-angle-left prev"></i>',
   nextArrow:'<i class="fas fa-angle-right next"></i>',
-    responsive: [
+  responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
+          arrows: false,
       }
     },
     {
@@ -21,6 +22,8 @@ $('.banner-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
+        dots:true,
       }
     },
     {
@@ -28,8 +31,8 @@ $('.banner-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-          arrows: false,
-          dots: true,
+        arrows: false,
+        dots:true,
       }
     }
   ]
@@ -118,14 +121,15 @@ $('.course-slider').slick({
   centerPadding:"0",
   prevArrow:'<i class="fas fa-angle-left prev"></i>',
   nextArrow:'<i class="fas fa-angle-right next"></i>',
-    responsive: [
+  responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 2,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false,
+           centerMode:false,
       }
     },
     {
@@ -133,6 +137,8 @@ $('.course-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
+        arrows: false,
+        dots:true,
       }
     },
     {
@@ -140,8 +146,8 @@ $('.course-slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-          arrows: false,
-          dots: true,
+        arrows: false,
+        dots:true,
       }
     }
   ]
@@ -207,8 +213,8 @@ rev.slick({
   asNavFor: '.details-slider',
   prevArrow:'<i class="fas fa-angle-left prev"></i>',
   nextArrow:'<i class="fas fa-angle-right next"></i>',
+  
 });
-
 
 
 $('.details-slider').slick({
@@ -219,7 +225,38 @@ $('.details-slider').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   asNavFor: '.test_slider',
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:true,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        dots:true,
+      }
+    }
+  ]
 });
+
+
 
 $('.teacher-slider').slick({
   dots: false,
@@ -230,7 +267,7 @@ $('.teacher-slider').slick({
   arrows: false,
   autoplay:false,
   autoplaySpeed:1200,
-    responsive: [
+  responsive: [
     {
       breakpoint: 1024,
       settings: {
@@ -243,15 +280,19 @@ $('.teacher-slider').slick({
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
+        arrows: false,
+        dots:true,
       }
     },
     {
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows: false,
+        dots:true,
       }
     }
   ]
@@ -270,28 +311,32 @@ $('.footer-slider').slick({
   centerPadding:"30px",
   autoplay:false,
   autoplaySpeed:1200,
-    responsive: [
+  responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 992,
       settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToShow: 4,
+        slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        arrows: false,
+        dots:false,
       }
     },
     {
       breakpoint: 576,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows: false,
+        dots:false,
       }
     }
   ]
