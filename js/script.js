@@ -138,7 +138,7 @@ $('.course-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     },
     {
@@ -147,7 +147,7 @@ $('.course-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     }
   ]
@@ -195,7 +195,7 @@ rev.on('init', function(event, slick, currentSlide) {
 rev.slick({
   speed: 1000,
   arrows: true,
-  dots: false,
+  dots: true,
   focusOnSelect: true,
   infinite: true,
   autoplay:false,
@@ -241,7 +241,7 @@ $('.details-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     },
     {
@@ -250,7 +250,7 @@ $('.details-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     }
   ]
@@ -280,10 +280,10 @@ $('.teacher-slider').slick({
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     },
     {
@@ -292,7 +292,7 @@ $('.teacher-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
-        dots:true,
+        dots:false,
       }
     }
   ]
@@ -315,7 +315,7 @@ $('.footer-slider').slick({
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         infinite: true,
         dots: false

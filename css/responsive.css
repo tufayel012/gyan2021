@@ -29,7 +29,7 @@
     }
     
     nav{
-        position: absolute !important;
+        /* position: absolute !important; */
         z-index: 9999;
         width: 100%;
         background: #fff;
@@ -191,6 +191,10 @@
         padding-left: 0px;
         padding-bottom: 0px;
     }
+
+    #event-part .item .text h2{
+        font-size: 18px;
+    }
     /*    ============================
     event part responsive end
     ==============================*/
@@ -201,6 +205,9 @@
     #testimonial-part .slick-slider{
         margin-left: 0;
         margin-right: 0;
+    }
+    #testimonial-part .title h1{
+        font-size: 30px;
     }
     /*    ============================
     testimonial part responsive end
@@ -228,6 +235,10 @@
     
     #blog-part .text-large{
         display: none;
+    }
+
+    #blog-part .small .img{
+        margin: 6px;
     }
     
     /*    ============================
@@ -277,7 +288,7 @@
     }
     
     nav{
-        position: absolute !important;
+        /* position: absolute !important; */
         z-index: 9999;
         width: 100%;
         background: #fff;
@@ -304,6 +315,10 @@
     
     nav .button{
         margin-top: 0;
+    }
+
+    nav .button a{
+        text-align: center;
     }
     
     nav .navbar-toggler:focus{
